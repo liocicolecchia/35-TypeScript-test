@@ -1,4 +1,21 @@
 {
+  "name": "36-typescript-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "no-typescript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liocicolecchia/35-TypeScript-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liocicolecchia/35-TypeScript-test/issues"
+  },
+  "homepage": "https://github.com/liocicolecchia/35-TypeScript-test#readme",
   "dependencies": {
     "typescript": "^7.0.2"
   }
