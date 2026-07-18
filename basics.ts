@@ -17,20 +17,21 @@ let hobbies: string[];
 
 hobbies = ["Sports", "Cooking"];
 
-let person: {
+// type aliases
+
+type Person = {
   name: string;
   age: number;
 };
+
+let person: Person;
 
 person = {
   name: "Lio",
   age: 23,
 };
 
-let people: {
-  name: string;
-  age: number;
-}[];
+let people: Person[];
 
 // person = {
 //   isEmployee: true,
