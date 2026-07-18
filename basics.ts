@@ -44,3 +44,11 @@ let course: string | number = "Im doing the course";
 course = 234534;
 
 // Functions types, parameters
+
+function add(a: number, b: number) {
+  return a + b;
+}
+
+function printOutput(value: any) {
+  console.log(value);
+}
